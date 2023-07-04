@@ -12,19 +12,19 @@ nav ul{
 	gap: 72px ;
 	
 }
-nav ul li a{
+nav ul li {
 	margin: 30px;
 	font-family: myriad pro regular;
-	color:#505050;
+	/*color:#505050;*/
 	text-decoration: none;
 	text-transform: uppercase;
-	color: white;
+	color: #505050;
 	padding: 10px;
 	transition: 0.5s ease;
-	font-size: 26px;
+	font-size: 15px;
 	font-weight: 700;
 }
-nav ul :hover li a{
+nav ul :hover li {
 	color: blue;
 }
 .logo{

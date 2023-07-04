@@ -4,7 +4,7 @@ const Main = () =>{
     return(
         <div>
             <Navigation/>
-            <p>Hello World</p>
+            <p>Welcome To Megam</p>
         </div>
     );
 }
