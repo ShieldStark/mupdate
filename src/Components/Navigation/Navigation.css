@@ -6,6 +6,12 @@ nav{
 	background-color: #ffffff;
 	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
+nav a{
+	font-family: RoadTest;
+	color:#000000;
+	font-size: 22px;
+	
+}
 nav ul{
 	font-family: "Chivo Mono", monospace;
 	display: flex;
@@ -26,11 +32,6 @@ nav ul li {
 }
 nav ul :hover li {
 	color: blue;
-}
-.logo{
-	font-family: RoadTest;
-	color:#000000;
-	font-size: 22px;
 }
 .active{
 	font-weight: bold;

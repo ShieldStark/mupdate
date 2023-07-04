@@ -3,7 +3,7 @@ import navi from "./Navigation.css";
 const Navigation = () =>{
     return(
         <nav>
-            <a className={navi.logo}>Megam</a>
+            <a>Megam</a>
             <ul>
                 <li>Home</li>
                 <li>DashBoard</li>
