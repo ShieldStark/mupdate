@@ -1,0 +1,30 @@
+.hover-enlarge {
+    position: relative;
+    width: 200px; /* Set the width of the container */
+  }
+  
+  .small-element {
+    background-color: lightblue;
+    transition: transform 0.3s; /* Apply a smooth transition */
+  }
+  
+  .small-element:hover {
+    transform: scale(1.2); /* Enlarge on hover (scale to 120%) */
+    z-index: 2; /* Ensure that the enlarged element is above the others */
+  }
+  
+  .enlarged-element {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px; /* Enlarged width (scale 120% from 200px) */
+    height: 240px; /* Enlarged height (scale 120% from 200px) */
+    background-color: lightgreen;
+    z-index: 1;
+  }
+  
+  .hover-enlarge:hover .enlarged-element {
+    display: block; /* Show the enlarged element on hover */
+  }
+  

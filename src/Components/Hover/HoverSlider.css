@@ -1,0 +1,17 @@
+.hover-slider {
+    display: flex;
+  }
+  
+  .option {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s; /* Apply a smooth transition */
+  }
+  
+  .option.active,
+  .option:hover {
+    transform: scale(1.2); /* Enlarge the active and hovered options */
+  }
+  
