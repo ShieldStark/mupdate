@@ -1,9 +1,10 @@
 .hover-slider {
-    display: flex;
+    position: relative; /* Enable positioning of the options */
   }
   
   .option {
-    flex: 1;
+    position: relative; /* Enable z-index stacking */
+    margin-top: -20px; /* Apply a negative margin to overlap the options */
     padding: 10px;
     text-align: center;
     cursor: pointer;
@@ -13,5 +14,6 @@
   .option.active,
   .option:hover {
     transform: scale(1.2); /* Enlarge the active and hovered options */
+    z-index: 10; /* Set higher z-index for the active and hovered options */
   }
   

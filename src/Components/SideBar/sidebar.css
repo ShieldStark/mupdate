@@ -1,0 +1,28 @@
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-200px);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-toggle {
+  margin: 10px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar-menu li:last-child {
+  border-bottom: none;
+}
