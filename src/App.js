@@ -14,6 +14,9 @@ function App() {
       <HoverEnlarge /> */}
       {/* <Sidebar/> */}
       <ProgessBar/>
+      <ProgessBar/>
+      <ProgessBar/>
+      <ProgessBar/>
     </div>
   );
 }
